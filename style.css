@@ -185,7 +185,7 @@ h3{
 .content-sub-container {
     margin: 0 160px 70px 160px;
     padding-top: 30px;
-    overflow: auto;
+    /* overflow: auto; */
     text-align: center;
 }
 
@@ -559,7 +559,7 @@ h3{
 .project-columns-container {
     position: relative;
     height: calc(100vh - 230px);
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
