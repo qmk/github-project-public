@@ -3,31 +3,21 @@
     .header-nav-links
       ul.header-nav-list
         li
-          a(href="https://doc.bionode.io") Documentation
+          a(href="https://qmk.fm") Home
         li
-          a(href="https://project.bionode.io") Project Board
-        li
-          a(href="https://github.com/bionode/bionode/blob/master/CONTRIBUTING.md") Contribute
-        li
-          a(href="https://github.com/bionode/bionode/issues/42") Roadmap
-        li
-          a(href="http://blog.bionode.io") Blog
-      a(href="https://github.com/bionode/bionode#readme", target="_blank")
+          a(href="https://docs.qmk.fm") Documentation
+      a(href="https://github.com/qmk/", target="_blank")
         .button
           span.octocat
           | View on GitHub
-    .header-logo
-      a(href="https://www.bionode.io") bionode
   .header-info
-    .header-title.header-title-bigger Modular and universal bioinformatics
+    .header-title.header-title-bigger QMK Project Board
     .header-horizontal-rule
-    .header-description Bionode provides pipeable UNIX command line tools and JavaScript APIs for bioinformatic analysis workflows.
+    .header-description Tracking QMK Firmware and related projects
     .header-continue
       a(href="#content") Find out more
         span.rsaquo &rsaquo;
 .content#content
-  .content-title Project Board
-  .content-horizontal-rule
   .content-sub-container
     .project-columns-container
       each cards, column in public._data
@@ -57,59 +47,8 @@
                 .card-assignees
                   each assignees in card.assignees
                     img.avatar(src="#{assignees.avatar_url}&s=40" height="20" width="20")
-
-.footer
-  .footer-directory
-    .footer-column
-      .footer-heading Explore
-      .footer-horizontal-rule
-      ul.footer-nav-list
-        li
-          span.rsaquo &rsaquo;
-          a(href="http://www.stickermule.com/marketplace/1917-bionode-modular-and-universal-bioinformatics") Get Stickers
-    .footer-column
-      .footer-heading Learn
-      .footer-horizontal-rule
-      ul.footer-nav-list
-        li
-          span.rsaquo &rsaquo;
-          a(href="http://try.bionode.io") Try
-    .footer-column
-      .footer-heading Connect
-      .footer-horizontal-rule
-      ul.footer-nav-list
-        li
-          a(href="https://twitter.com/bionode")
-            span.twitter-green
-            | Twitter
-        li
-          a(href="https://github.com/bionode")
-            span.octocat-green
-            | GitHub
-  .footer-credits
-    span.footer-emphasized bionode
-    | &bull; 2014 &bull; design by
-    a(href="https://github.com/flipside-org") flipside
-    | for
-    a(href="https://dat-data.com") dat
-    | &bull; dat kindly granted reuse for bionode
-script.
-  (function (i, s, o, g, r, a, m) {
-  i['GoogleAnalyticsObject'] = r;
-  i[r] = i[r] || function () {
-  (i[r].q = i[r].q || []).push(arguments)
-  }, i[r].l = 1 * new Date();
-  a = s.createElement(o),
-  m = s.getElementsByTagName(o)[0];
-  a.async = 1;
-  a.src = g;
-  m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-54802258-1', 'auto');
-    ga('send', 'pageview');
-
 script.
   ((window.gitter = {}).chat = {}).options = {
-    room: 'bionode/bionode'
+    room: 'qmk/qmk_firmware'
   };
 script(src="https://sidecar.gitter.im/dist/sidecar.v1.js", async, defer)

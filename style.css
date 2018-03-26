@@ -34,7 +34,7 @@ h3{
 
 .header {
     background: #fff;
-    background-image: url('images/header-abstract.png');
+    /* background-image: url('images/header-abstract.png'); */
     background-repeat: no-repeat;
     background-position: 120% -10px;
 }
@@ -52,7 +52,7 @@ h3{
     display: inline-block;
     font-weight: 600;
     font-size: 48px;
-    background-image: url('images/bionode-hex-small.png');
+    /* background-image: url('images/bionode-hex-small.png'); */
     background-size: 40px;
     background-repeat: no-repeat;
     padding-left: 50px;
