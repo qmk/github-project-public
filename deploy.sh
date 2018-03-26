@@ -16,10 +16,11 @@ node $PWD/projects.js qmk | \
     map( { (.[0].column_name|tostring) : .  }) |
     add |
     {
-      Backlog: .Backlog,
-      Next: .Next,
+      TODO: .TODO,
+      "Backend TODO": ."Backend TODO",
+      "Frontend TODO": ."Frontend TODO",
       "In Progress": ."In Progress",
-      Done: .Done
+      Completed: .Completed
     }' \
   > _data.json
 
