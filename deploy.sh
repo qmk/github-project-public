@@ -16,7 +16,6 @@ node $PWD/projects.js qmk | \
     map( { (.[0].column_name|tostring) : .  }) |
     add |
     {
-      TODO: .TODO,
       "Backend TODO": ."Backend TODO",
       "Frontend TODO": ."Frontend TODO",
       "In Progress": ."In Progress",
