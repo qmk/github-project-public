@@ -1,0 +1,11 @@
+before_script: npm install -g harp
+script: bash ./deploy.sh
+language: node_js
+node_js:
+  - 5.7.1
+env:
+  global:
+    - GH_REF: github.com/qmk/github-project-public.git
+branches:
+  only:
+    - master
